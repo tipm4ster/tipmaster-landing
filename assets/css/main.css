@@ -2271,3 +2271,55 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+/* ===== Cores personalizadas TipMaster ===== */
+:root {
+  --color-primary: #6E00FF;    /* Roxo principal */
+  --color-secondary: #FF008A;  /* Rosa destaque */
+  --color-text: #1E1E1E;       /* Texto escuro */
+  --color-bg: #FFFFFF;         /* Fundo branco */
+  --color-sidebar-bg: #f8f8f8;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.button {
+  background: var(--color-primary);
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 0.8em 1.5em;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+}
+
+.button.primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+}
+
+.button:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+#sidebar {
+  background: var(--color-sidebar-bg);
+}
+
+#menu a {
+  color: var(--color-text);
+}
+
+#menu a:hover {
+  color: var(--color-primary);
+}
