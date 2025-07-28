@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TipMaster Free – Domine os padrões</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h1>TipMaster FREE – Domine os padrões. Vença com inteligência.</h1>
+      <p>Comece a enxergar o jogo de outra forma. O TipMaster é seu treinador invisível.</p>
+      <a href="#cadastro" class="btn">Baixe agora grátis</a>
+    </div>
+  </header>
+
+  <!-- FUNCIONALIDADES FREE -->
+  <section class="features">
+    <div class="container">
+      <h2>O que você recebe no TipMaster FREE</h2>
+
+      <div class="feature">
+        <img src="1. resumo diario.png" alt="Resumo Diário">
+        <div class="text">
+          <h3>Resumo Diário</h3>
+          <p>Estatísticas completas das últimas 24h, win rate por hora, médias e velas de 2x a 100x.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="2. Painel diario.png" alt="Painel Diário">
+        <div class="text">
+          <h3>Painel Diário</h3>
+          <p>LOOP temporal diário (24h x 60min), com 1.440 fórmulas monitorando minuto a minuto.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="3 e 4 - DADOS e RANGE.png" alt="Dados e Range">
+        <div class="text">
+          <h3>Dados e Range</h3>
+          <p>Histórico completo das últimas 24h, organizado com cores e classificação de velas e horários.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="5. padroes graficos.png" alt="Padrões Gráficos">
+        <div class="text">
+          <h3>Padrões Gráficos</h3>
+          <p>Visual exclusivo em 4 colunas, com painel explicativo de 16 padrões.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="6. menu automacao.png" alt="Menu Automação">
+        <div class="text">
+          <h3>Menu de Automação</h3>
+          <p>10 botões inteligentes para limpar histórico, criar range e muito mais.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="7. controle de navegacao.png" alt="Controle de Navegação">
+        <div class="text">
+          <h3>Controle de Navegação</h3>
+          <p>Navegação otimizada e congelamento inteligente de painéis.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMPARAÇÃO FREE VS PRO -->
+  <section class="comparison">
+    <div class="container">
+      <h2>TipMaster PRO – 25x mais poderoso que o FREE</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Funcionalidades</th>
+            <th>FREE</th>
+            <th>PRO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Resumo diário</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Painel diário</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Dados e range automáticos</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Padrões gráficos (visual)</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Menu de automação básico</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Controle de navegação</td><td>✅</td><td>✅</td></tr>
+          <tr><td>Contagem de padrões gráficos</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Estatísticas de padrões</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Contagem de GAPs (temporal)</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Estatísticas de GAPs</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Bombas & Clusters</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Gaps de velas altas</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Resumo mensal (rank de horários)</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Painel mensal (rank de minutos)</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Painel anual</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Calculadora de resultados</td><td>❌</td><td>✅</td></tr>
+          <tr><td>Estratégia do Loop 5x</td><td>❌</td><td>✅</td></tr>
+        </tbody>
+      </table>
+      <a href="#cadastro" class="btn">Quero o PRO</a>
+    </div>
+  </section>
+
+  <!-- CADASTRO -->
+  <section class="cadastro" id="cadastro">
+    <div class="container">
+      <h2>Baixe o TipMaster FREE agora!</h2>
+      <p>Preencha o formulário para receber o TipMaster FREE no seu e-mail.</p>
+      <form>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu email" required>
+        <button type="submit" class="btn">Baixar agora grátis</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
